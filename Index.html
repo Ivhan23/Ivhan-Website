@@ -13,7 +13,14 @@
 
 </head>
 <body>
-    
+<audio id="song">
+<source src="Tada koe hitotsu - Rokudenashi.mp3">
+</audio>
+<script>
+    window.addEventListener('click',() => {
+        document.getElementById("song").play();
+    });
+</script>
  <!-- Header Section Starts -->
 
  <header>
@@ -93,18 +100,23 @@
 
         <div class="box">
             <img src="Maula.jpg" alt="">
-
+        </div>
+        <div class="box-content">
+            <h2 class="name">𝗝𝗼𝗵𝗻𝗹𝗮𝘄𝗿𝗲𝗻𝗰𝗲 𝗠𝗮𝘂𝗹𝗮</h2>
         </div>
 
         <div class="box">
             <img src="Guban.jpg" alt="">
+        </div>
+        <div class="box-content">
+            <h2 class="name">𝗖𝗮𝗿𝗹𝗴𝗶𝗮𝗻 𝗚𝘂𝗯𝗮𝗻</h2>
         </div>
 
         <div class="box">
             <img src="Altabano.jpg" alt="">
         </div>
         <div class="box-content">
-            <h2 class="name"> </h2>
+            <h2 class="name">𝗗𝗮𝘃𝗲 𝗘𝗺𝗺𝗮𝗻𝘂𝗲𝗹 𝗔𝗹𝘁𝗮𝗯𝗮𝗻𝗼</h2>
         </div>
 
     </div>
@@ -117,33 +129,33 @@
 <section class="contact" id="contact">
 
     <h1 class="heading"> <span>contact</span> me </h1>
-    
+
     <div class="row">
-    
+
         <div class="content">
-    
+
             <h3 class="title">contact info</h3>
-    
+
             <div class="info">
 
                 <h3> <i class="fas fa-envelope"></i> Ivhan.cabigting@gmail.com </h3>
                 <h3> <i class="fas fa-phone"></i> +63 951 084 0722 </h3>
             </div>
-    
+
         </div>
-    
+
         <form action="">
-    
+
             <input type="text" placeholder="name" class="box">
             <input type="email" placeholder="email" class="box">
             <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
             <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
-    
+
         </form>
-        
+
     </div>
     </section>
-    
+
     <!-- Contact Section Ends -->
 
 
